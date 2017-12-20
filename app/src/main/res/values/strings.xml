@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Facebook Login App</string>
+    <string name="login_email_label">Login With Email</string>
+    <string name="login_phone_label">Login With Phone Number</string>
+</resources>

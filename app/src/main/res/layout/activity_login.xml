@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_wave"
+    android:layout_height="match_parent"
+    tools:context="com.kamrulhasan3288.facebookloginapp.LoginActivity">
+
+    <ImageView
+        android:layout_above="@+id/appNameText"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_surf_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/appNameText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/phone_number_loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email_login_button"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:text="@string/login_phone_label"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/email_login_button"
+        android:text="@string/login_email_label"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
