@@ -9,6 +9,10 @@
     </style>
 
 
+    <style name="AppLoginTheme" parent="Theme.AccountKit">
+
+    </style>
+
   <!--  <style name="AppLoginTheme" parent="Theme.AccountKit">
         <item name="com_accountkit_background_color">@color/ak_background</item>
         <item name="com_accountkit_text_color">@color/ak_text</item>

@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">Facebook Login App</string>
+
+    <!--account kit-->
+    <string name="FACEBOOK_APP_ID">you app id</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">your app client token</string>
+    <string name="ak_login_protocol_scheme">ak your app id</string>
+
+    <!--facebook login-->
+    <string name="fb_login_protocol_scheme">fb your app id</string>
+
+
+
     <string name="login_email_label">Login With Email</string>
     <string name="login_phone_label">Login With Phone Number</string>
+    <string name="log_out">Log Out</string>
 </resources>
